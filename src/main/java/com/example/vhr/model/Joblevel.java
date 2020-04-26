@@ -21,7 +21,7 @@ public class Joblevel implements Serializable {
     /**
      * 职称名称
      */
-    @ApiModelProperty(notes = "职称名称", name = "name", required = true, dataType = "String", value = "职称名称")
+    @ApiModelProperty(notes = "职称名称", name = "name", required = true, dataType = "String", value = "正高级,副高级,中级,初级,员级")
     private String name;
 
     @ApiModelProperty(notes = "职称级别", name = "titleLevel", required = true, value = "职称级别")
