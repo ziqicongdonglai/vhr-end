@@ -59,7 +59,7 @@ public class PositionController {
         return RespBean.error("更新失败");
     }
 
-    @DeleteMapping("/id")
+    @DeleteMapping("/{id}")
     @ApiOperation(value = "删除职位", notes = "根据id删除职位")
     public RespBean deletePosition(@PathVariable Integer id) {
         if (positionService.deletePosition(id) == 1) {
@@ -69,7 +69,8 @@ public class PositionController {
     }
 
     @DeleteMapping("/")
-    @ApiOperation(value = "批量删除职位", notes = "根据id批量删除职位")
+    @ApiOperation(value = "批量删除职位", notes = "根据id数组批量删除职位")
+    @ApiImplicitParam(name = "ids", value = "id数组", required = true)
     public RespBean deletePosition(Integer[] ids) {
         if (positionService.deletePosition(ids) == ids.length) {
             return RespBean.ok("批量删除成功");

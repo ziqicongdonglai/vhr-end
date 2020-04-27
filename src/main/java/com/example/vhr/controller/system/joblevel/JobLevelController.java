@@ -19,7 +19,7 @@ import java.util.List;
 @SwaggerDefinition(tags = {
         @Tag(name = "职称 API", description = "职称管理的API接口")
 })
-@RequestMapping("/system/basic/job")
+@RequestMapping("/system/basic/joblevel")
 public class JobLevelController {
     @Autowired
     JobLevelService jobLevelService;
@@ -29,8 +29,8 @@ public class JobLevelController {
             notes = "完整的职称内容列表",
             produces = "application/json, application/xml")
     public RespBean getAllJobLevel() {
-        List<Joblevel> joblevels = jobLevelService.getAllJobLevel();
-        return RespBean.ok("获取成功", joblevels);
+        List<Joblevel> jobLevels = jobLevelService.getAllJobLevel();
+        return RespBean.ok("获取成功", jobLevels);
     }
 
     @PostMapping("/")
@@ -59,7 +59,7 @@ public class JobLevelController {
         return RespBean.error("更新失败");
     }
 
-    @DeleteMapping("/id")
+    @DeleteMapping("/{id}")
     @ApiOperation(value = "删除职称", notes = "根据id删除职称")
     public RespBean deleteJobLevel(@PathVariable Integer id) {
         if (jobLevelService.deleteJobLevel(id) == 1) {
@@ -70,6 +70,7 @@ public class JobLevelController {
 
     @DeleteMapping("/")
     @ApiOperation(value = "批量删除职称", notes = "根据id批量删除职称")
+    @ApiImplicitParam(name = "ids", value = "id数组", required = true)
     public RespBean deleteJobLevel(Integer[] ids) {
         if (jobLevelService.deleteJobLevel(ids) == ids.length) {
             return RespBean.ok("批量删除成功");
