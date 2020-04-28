@@ -1,0 +1,44 @@
+2020-04-28 22:32:14.541[main][main] INFO  com.example.vhr.VhrEndApplication - Starting VhrEndApplication on LAPTOP-K0SG6Q7R with PID 26024 (D:\MySelf\Study\MainMajor\SpringBoot\vhr-end\target\classes started by 18262 in D:\MySelf\Study\MainMajor\SpringBoot\vhr-end)
+2020-04-28 22:32:14.542[main][main] INFO  com.example.vhr.VhrEndApplication - No active profile set, falling back to default profiles: default
+2020-04-28 22:32:15.508[main][main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-04-28 22:32:15.778[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-28 22:32:15.784[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-28 22:32:15.785[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-28 22:32:15.785[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-28 22:32:15.786[main][main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-04-28 22:32:15.786[main][main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-04-28 22:32:15.786[main][main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-04-28 22:32:15.788[main][main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-04-28 22:32:15.843[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-28 22:32:15.843[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1262 ms
+2020-04-28 22:32:16.454[main][main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-28 22:32:16.511[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-28 22:32:16.700[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@657b3b, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b691611, org.springframework.security.web.header.HeaderWriterFilter@192b472d, org.springframework.security.web.authentication.logout.LogoutFilter@3ad847f8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@55044b34, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@cd5ff55, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2cea921a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@379f9555, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53ba1175, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65753724, org.springframework.security.web.session.SessionManagementFilter@45b96e4c, org.springframework.security.web.access.ExceptionTranslationFilter@5353dd09, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7cd1ec54]
+2020-04-28 22:32:16.731[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-28 22:32:16.743[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-28 22:32:16.766[main][main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-28 22:32:16.839[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-04-28 22:32:16.845[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteJobLevelUsingDELETE_1
+2020-04-28 22:32:16.859[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-04-28 22:32:16.862[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deletePositionUsingDELETE_1
+2020-04-28 22:32:16.886[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-28 22:32:16.903[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-28 22:32:16.906[main][main] INFO  com.example.vhr.VhrEndApplication - Started VhrEndApplication in 2.605 seconds (JVM running for 3.417)
+2020-04-28 22:33:33.494[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-28 22:33:33.495[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-28 22:33:33.501[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-04-28 22:33:33.604[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-28 22:33:33.818[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-28 22:33:33.823[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-04-28 22:33:33.838[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: admin(String)
+2020-04-28 22:33:33.852[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-04-28 22:33:34.145[http-nio-8080-exec-1][http-nio-8080-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [189] milliseconds.
+2020-04-28 22:33:34.194[http-nio-8080-exec-2][http-nio-8080-exec-2] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==>  Preparing: select distinct m1.*, m2.id as id2, m2.component as component2, m2.enabled as enabled2, m2.iconCls as iconCls2, m2.keepAlive as keepAlive2, m2.name as name2, m2.parentId as parentid2, m2.requireAuth as requireAuth2, m2.path as path2 from menu m1, menu m2, hr_role hrr, menu_role mr where m1.id=m2.parentId and hrr.hrid=? and hrr.rid=mr.rid and mr.mid=m2.id and m2.enabled=true order by m1.id, m2.id 
+2020-04-28 22:33:34.194[http-nio-8080-exec-2][http-nio-8080-exec-2] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==> Parameters: 3(Integer)
+2020-04-28 22:33:34.213[http-nio-8080-exec-2][http-nio-8080-exec-2] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - <==      Total: 21
+2020-04-28 22:33:36.122[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.J.selectAllJobLevel - ==>  Preparing: select * from joblevel 
+2020-04-28 22:33:36.122[http-nio-8080-exec-3][http-nio-8080-exec-3] DEBUG c.e.v.m.P.selectAllPosition - ==>  Preparing: select * from position 
+2020-04-28 22:33:36.122[http-nio-8080-exec-3][http-nio-8080-exec-3] DEBUG c.e.v.m.P.selectAllPosition - ==> Parameters: 
+2020-04-28 22:33:36.122[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.J.selectAllJobLevel - ==> Parameters: 
+2020-04-28 22:33:36.125[http-nio-8080-exec-3][http-nio-8080-exec-3] DEBUG c.e.v.m.P.selectAllPosition - <==      Total: 6
+2020-04-28 22:33:36.126[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.J.selectAllJobLevel - <==      Total: 10
