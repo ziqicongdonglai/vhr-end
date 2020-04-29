@@ -28,7 +28,7 @@ public class Position implements Serializable {
     @ApiModelProperty(notes = "职位创建时间", name = "createDate", required = true, dataType = "Date", value = "1970-01-01 00:00:00")
     private Date createDate;
 
-    @ApiModelProperty(notes = "职位权限", name = "enabled", required = true, dataType = "BIT", value = "1")
+    @ApiModelProperty(notes = "是否启用", name = "enabled", required = true, dataType = "BIT", value = "1")
     private Boolean enabled;
 
     private static final long serialVersionUID = 1L;

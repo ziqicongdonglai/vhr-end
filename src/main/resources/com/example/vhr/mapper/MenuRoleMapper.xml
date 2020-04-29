@@ -10,7 +10,7 @@
     id, mid, rid
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select 
+    select
     <include refid="Base_Column_List" />
     from menu_role
     where id = #{id,jdbcType=INTEGER}
@@ -41,6 +41,12 @@
         #{rid,jdbcType=INTEGER},
       </if>
     </trim>
+  </insert>
+  <insert id="insertRecord" parameterType="java.lang.Integer">
+    insert into menu_role(mid, rid) values
+    <foreach collection="mids" separator="," item="mid">
+      (#{mid}, #{rid})
+    </foreach>
   </insert>
   <update id="updateByPrimaryKeySelective" parameterType="com.example.vhr.model.MenuRole">
     update menu_role
