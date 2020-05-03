@@ -1,4 +1,4 @@
-package com.example.vhr.service.system.joblevel;
+package com.example.vhr.service.system.basic;
 
 import com.example.vhr.mapper.JoblevelMapper;
 import com.example.vhr.model.Joblevel;

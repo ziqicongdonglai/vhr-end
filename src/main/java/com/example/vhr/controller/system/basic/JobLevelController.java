@@ -1,8 +1,8 @@
-package com.example.vhr.controller.system.joblevel;
+package com.example.vhr.controller.system.basic;
 
 import com.example.vhr.model.Joblevel;
 import com.example.vhr.model.RespBean;
-import com.example.vhr.service.system.joblevel.JobLevelService;
+import com.example.vhr.service.system.basic.JobLevelService;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -1,10 +1,10 @@
-package com.example.vhr.controller.system.permission;
+package com.example.vhr.controller.system.basic;
 
 import com.example.vhr.model.Menu;
 import com.example.vhr.model.RespBean;
 import com.example.vhr.model.Role;
 import com.example.vhr.service.MenuService;
-import com.example.vhr.service.system.permission.RoleService;
+import com.example.vhr.service.system.basic.RoleService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.SwaggerDefinition;
@@ -62,5 +62,23 @@ public class PermissionController {
             return RespBean.ok("更新成功");
         }
         return RespBean.error("更新失败");
+    }
+
+    @PostMapping("/role")
+    @ApiOperation(value = "添加角色")
+    public RespBean addRole(@RequestBody Role role) {
+        if (roleService.addRole(role) == 1) {
+            return RespBean.ok("添加成功！");
+        }
+        return RespBean.error("添加失败！");
+    }
+
+    @DeleteMapping("/role/{rid}")
+    @ApiOperation(value = "根据角色id删除角色")
+    public RespBean deleteRoleById(@PathVariable Integer rid) {
+        if (roleService.deleteRoleById(rid) == 1) {
+            return RespBean.ok("删除成功！");
+        }
+        return RespBean.error("删除失败！");
     }
 }
