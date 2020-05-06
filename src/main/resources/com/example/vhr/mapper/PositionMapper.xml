@@ -26,6 +26,13 @@
         #{id}
     </foreach>
   </delete>
+  <insert id="batchInsert" parameterType="com.example.vhr.model.Position">
+    insert into position (name, createDate, enabled) values
+    <foreach collection="list" item="position" separator=",">
+      (#{position.name, jdbcType=VARCHAR}, #{position.createDate, jdbcType=TIMESTAMP},
+      #{position.enabled, jdbcType=BIT})
+    </foreach>
+  </insert>
   <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.example.vhr.model.Position" useGeneratedKeys="true">
     insert into position (id, name, createDate, enabled
       )
