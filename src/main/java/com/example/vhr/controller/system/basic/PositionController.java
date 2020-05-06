@@ -3,11 +3,10 @@ package com.example.vhr.controller.system.basic;
 import com.example.vhr.model.Position;
 import com.example.vhr.model.RespBean;
 import com.example.vhr.service.system.basic.PositionService;
+import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 /**
  * @author ke_zhang
@@ -24,12 +23,20 @@ public class PositionController {
     @Autowired
     PositionService positionService;
 
+    //@GetMapping("/")
+    //@ApiOperation(value = "职位列表",
+    //        notes = "完整的职位内容列表",
+    //        produces = "application/json, application/xml")
+    //public RespBean getAllPosition() {
+    //    List<Position> positions = positionService.getAllPosition();
+    //    return RespBean.ok("获取成功", positions);
+    //}
+
     @GetMapping("/")
-    @ApiOperation(value = "职位列表",
-            notes = "完整的职位内容列表",
-            produces = "application/json, application/xml")
-    public RespBean getAllPosition() {
-        List<Position> positions = positionService.getAllPosition();
+    @ApiOperation(value = "分页获取职位", notes = "职位信息列表")
+    public RespBean getPositionByPage(@RequestParam(defaultValue = "1") Integer page,
+                                      @RequestParam(defaultValue = "5") Integer size){
+        PageInfo<Position> positions = positionService.getPositionByPage(page, size);
         return RespBean.ok("获取成功", positions);
     }
 

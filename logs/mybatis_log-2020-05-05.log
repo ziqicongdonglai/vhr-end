@@ -1,0 +1,330 @@
+2020-05-05 08:03:15.623[main][main] INFO  com.example.vhr.VhrEndApplication - Starting VhrEndApplication on LAPTOP-K0SG6Q7R with PID 5784 (D:\MySelf\Study\MainMajor\SpringBoot\vhr-end\target\classes started by 18262 in D:\MySelf\Study\MainMajor\SpringBoot\vhr-end)
+2020-05-05 08:03:15.627[main][main] INFO  com.example.vhr.VhrEndApplication - No active profile set, falling back to default profiles: default
+2020-05-05 08:03:18.622[main][main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-05 08:03:19.777[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-05 08:03:19.820[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-05 08:03:19.822[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-05 08:03:19.822[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-05 08:03:19.825[main][main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-05 08:03:19.825[main][main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-05 08:03:19.825[main][main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-05 08:03:19.853[main][main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-05 08:03:20.096[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-05 08:03:20.096[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4361 ms
+2020-05-05 08:03:22.591[main][main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-05 08:03:22.740[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 08:03:23.241[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@243c4346, org.springframework.security.web.context.SecurityContextPersistenceFilter@e881e46, org.springframework.security.web.header.HeaderWriterFilter@300a38e7, org.springframework.security.web.authentication.logout.LogoutFilter@1209a0f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30d15e4a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@32b112a1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2905b568, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cea921a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b936b04, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3dfe59d7, org.springframework.security.web.session.SessionManagementFilter@2bb0e277, org.springframework.security.web.access.ExceptionTranslationFilter@55044b34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@485deee1]
+2020-05-05 08:03:23.319[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-05 08:03:23.340[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-05 08:03:23.400[main][main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-05 08:03:23.577[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 08:03:23.590[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteJobLevelUsingDELETE_1
+2020-05-05 08:03:23.639[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 08:03:23.653[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 08:03:23.659[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deletePositionUsingDELETE_1
+2020-05-05 08:03:23.724[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-05 08:03:23.772[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-05 08:03:23.787[main][main] INFO  com.example.vhr.VhrEndApplication - Started VhrEndApplication in 8.872 seconds (JVM running for 12.21)
+2020-05-05 08:12:00.846[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-05 08:12:00.848[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-05 08:12:00.856[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-05-05 08:12:00.969[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-05 08:12:01.240[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-05 08:12:01.246[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 08:12:01.262[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: admin(String)
+2020-05-05 08:12:01.284[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 08:12:01.576[http-nio-8080-exec-1][http-nio-8080-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [181] milliseconds.
+2020-05-05 08:12:01.660[http-nio-8080-exec-2][http-nio-8080-exec-2] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==>  Preparing: select distinct m1.*, m2.id as id2, m2.component as component2, m2.enabled as enabled2, m2.iconCls as iconCls2, m2.keepAlive as keepAlive2, m2.name as name2, m2.parentId as parentid2, m2.requireAuth as requireAuth2, m2.path as path2 from menu m1, menu m2, hr_role hrr, menu_role mr where m1.id=m2.parentId and hrr.hrid=? and hrr.rid=mr.rid and mr.mid=m2.id and m2.enabled=true order by m1.id, m2.id 
+2020-05-05 08:12:01.660[http-nio-8080-exec-2][http-nio-8080-exec-2] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==> Parameters: 3(Integer)
+2020-05-05 08:12:01.682[http-nio-8080-exec-2][http-nio-8080-exec-2] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - <==      Total: 21
+2020-05-05 08:14:03.385[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 08:14:03.386[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: admin(String)
+2020-05-05 08:14:03.388[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 08:14:03.516[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==>  Preparing: select distinct m1.*, m2.id as id2, m2.component as component2, m2.enabled as enabled2, m2.iconCls as iconCls2, m2.keepAlive as keepAlive2, m2.name as name2, m2.parentId as parentid2, m2.requireAuth as requireAuth2, m2.path as path2 from menu m1, menu m2, hr_role hrr, menu_role mr where m1.id=m2.parentId and hrr.hrid=? and hrr.rid=mr.rid and mr.mid=m2.id and m2.enabled=true order by m1.id, m2.id 
+2020-05-05 08:14:03.517[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==> Parameters: 3(Integer)
+2020-05-05 08:14:03.527[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - <==      Total: 21
+2020-05-05 08:14:20.289[http-nio-8080-exec-7][http-nio-8080-exec-7] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 08:14:20.290[http-nio-8080-exec-7][http-nio-8080-exec-7] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: admin(String)
+2020-05-05 08:14:20.296[http-nio-8080-exec-7][http-nio-8080-exec-7] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 08:14:20.528[http-nio-8080-exec-8][http-nio-8080-exec-8] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==>  Preparing: select distinct m1.*, m2.id as id2, m2.component as component2, m2.enabled as enabled2, m2.iconCls as iconCls2, m2.keepAlive as keepAlive2, m2.name as name2, m2.parentId as parentid2, m2.requireAuth as requireAuth2, m2.path as path2 from menu m1, menu m2, hr_role hrr, menu_role mr where m1.id=m2.parentId and hrr.hrid=? and hrr.rid=mr.rid and mr.mid=m2.id and m2.enabled=true order by m1.id, m2.id 
+2020-05-05 08:14:20.528[http-nio-8080-exec-8][http-nio-8080-exec-8] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==> Parameters: 3(Integer)
+2020-05-05 08:14:20.533[http-nio-8080-exec-8][http-nio-8080-exec-8] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - <==      Total: 21
+2020-05-05 08:15:55.078[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 08:15:55.078[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: libai(String)
+2020-05-05 08:15:55.080[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 08:15:55.507[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==>  Preparing: select distinct m1.*, m2.id as id2, m2.component as component2, m2.enabled as enabled2, m2.iconCls as iconCls2, m2.keepAlive as keepAlive2, m2.name as name2, m2.parentId as parentid2, m2.requireAuth as requireAuth2, m2.path as path2 from menu m1, menu m2, hr_role hrr, menu_role mr where m1.id=m2.parentId and hrr.hrid=? and hrr.rid=mr.rid and mr.mid=m2.id and m2.enabled=true order by m1.id, m2.id 
+2020-05-05 08:15:55.507[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==> Parameters: 5(Integer)
+2020-05-05 08:15:55.522[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - <==      Total: 22
+2020-05-05 08:16:05.642[http-nio-8080-exec-3][http-nio-8080-exec-3] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 08:16:05.643[http-nio-8080-exec-3][http-nio-8080-exec-3] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: admin(String)
+2020-05-05 08:16:05.647[http-nio-8080-exec-3][http-nio-8080-exec-3] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 08:16:05.888[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==>  Preparing: select distinct m1.*, m2.id as id2, m2.component as component2, m2.enabled as enabled2, m2.iconCls as iconCls2, m2.keepAlive as keepAlive2, m2.name as name2, m2.parentId as parentid2, m2.requireAuth as requireAuth2, m2.path as path2 from menu m1, menu m2, hr_role hrr, menu_role mr where m1.id=m2.parentId and hrr.hrid=? and hrr.rid=mr.rid and mr.mid=m2.id and m2.enabled=true order by m1.id, m2.id 
+2020-05-05 08:16:05.889[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==> Parameters: 3(Integer)
+2020-05-05 08:16:05.896[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - <==      Total: 21
+2020-05-05 08:16:40.884[http-nio-8080-exec-6][http-nio-8080-exec-6] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 08:16:40.885[http-nio-8080-exec-6][http-nio-8080-exec-6] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: hanyu(String)
+2020-05-05 08:16:40.889[http-nio-8080-exec-6][http-nio-8080-exec-6] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 08:16:41.126[http-nio-8080-exec-7][http-nio-8080-exec-7] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==>  Preparing: select distinct m1.*, m2.id as id2, m2.component as component2, m2.enabled as enabled2, m2.iconCls as iconCls2, m2.keepAlive as keepAlive2, m2.name as name2, m2.parentId as parentid2, m2.requireAuth as requireAuth2, m2.path as path2 from menu m1, menu m2, hr_role hrr, menu_role mr where m1.id=m2.parentId and hrr.hrid=? and hrr.rid=mr.rid and mr.mid=m2.id and m2.enabled=true order by m1.id, m2.id 
+2020-05-05 08:16:41.127[http-nio-8080-exec-7][http-nio-8080-exec-7] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==> Parameters: 10(Integer)
+2020-05-05 08:16:41.130[http-nio-8080-exec-7][http-nio-8080-exec-7] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - <==      Total: 3
+2020-05-05 09:14:14.931[main][main] INFO  com.example.vhr.VhrEndApplication - Starting VhrEndApplication on LAPTOP-K0SG6Q7R with PID 19760 (D:\MySelf\Study\MainMajor\SpringBoot\vhr-end\target\classes started by 18262 in D:\MySelf\Study\MainMajor\SpringBoot\vhr-end)
+2020-05-05 09:14:14.934[main][main] INFO  com.example.vhr.VhrEndApplication - No active profile set, falling back to default profiles: default
+2020-05-05 09:14:16.221[main][main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-05 09:14:16.561[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-05 09:14:16.567[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-05 09:14:16.568[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-05 09:14:16.568[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-05 09:14:16.569[main][main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-05 09:14:16.569[main][main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-05 09:14:16.569[main][main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-05 09:14:16.571[main][main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-05 09:14:16.639[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-05 09:14:16.639[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1634 ms
+2020-05-05 09:14:17.276[main][main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-05 09:14:17.375[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 09:14:17.580[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ec13984, org.springframework.security.web.context.SecurityContextPersistenceFilter@467af68c, org.springframework.security.web.header.HeaderWriterFilter@8bc0696, org.springframework.security.web.authentication.logout.LogoutFilter@3d3930fe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1573e8a5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@56d822dc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@14485747, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d6f77d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e3cd732, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59fea5f5, org.springframework.security.web.session.SessionManagementFilter@270f28cf, org.springframework.security.web.access.ExceptionTranslationFilter@41143873, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4eb63dc8]
+2020-05-05 09:14:17.612[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-05 09:14:17.620[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-05 09:14:17.642[main][main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-05 09:14:17.713[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 09:14:17.719[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteJobLevelUsingDELETE_1
+2020-05-05 09:14:17.739[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 09:14:17.744[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 09:14:17.746[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deletePositionUsingDELETE_1
+2020-05-05 09:14:17.769[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-05 09:14:17.789[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-05 09:14:17.793[main][main] INFO  com.example.vhr.VhrEndApplication - Started VhrEndApplication in 3.187 seconds (JVM running for 4.337)
+2020-05-05 09:14:23.989[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-05 09:14:23.990[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-05 09:14:23.995[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-05-05 09:14:24.203[http-nio-8080-exec-1][http-nio-8080-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [186] milliseconds.
+2020-05-05 09:14:30.192[http-nio-8080-exec-5][http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-05 09:14:30.433[http-nio-8080-exec-5][http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-05 09:14:30.438[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 09:14:30.452[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: admin(String)
+2020-05-05 09:14:30.466[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 09:14:55.037[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 09:14:55.038[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: admin(String)
+2020-05-05 09:14:55.041[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 09:14:55.283[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==>  Preparing: select distinct m1.*, m2.id as id2, m2.component as component2, m2.enabled as enabled2, m2.iconCls as iconCls2, m2.keepAlive as keepAlive2, m2.name as name2, m2.parentId as parentid2, m2.requireAuth as requireAuth2, m2.path as path2 from menu m1, menu m2, hr_role hrr, menu_role mr where m1.id=m2.parentId and hrr.hrid=? and hrr.rid=mr.rid and mr.mid=m2.id and m2.enabled=true order by m1.id, m2.id 
+2020-05-05 09:14:55.283[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==> Parameters: 3(Integer)
+2020-05-05 09:14:55.294[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - <==      Total: 21
+2020-05-05 09:19:07.834[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 09:19:07.834[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: admin(String)
+2020-05-05 09:19:07.835[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 09:21:29.207[main][main] INFO  com.example.vhr.VhrEndApplication - Starting VhrEndApplication on LAPTOP-K0SG6Q7R with PID 2796 (D:\MySelf\Study\MainMajor\SpringBoot\vhr-end\target\classes started by 18262 in D:\MySelf\Study\MainMajor\SpringBoot\vhr-end)
+2020-05-05 09:21:29.210[main][main] INFO  com.example.vhr.VhrEndApplication - No active profile set, falling back to default profiles: default
+2020-05-05 09:21:30.329[main][main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-05 09:21:30.714[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-05 09:21:30.726[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-05 09:21:30.726[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-05 09:21:30.726[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-05 09:21:30.728[main][main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-05 09:21:30.728[main][main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-05 09:21:30.728[main][main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-05 09:21:30.731[main][main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-05 09:21:30.808[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-05 09:21:30.808[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1534 ms
+2020-05-05 09:21:31.543[main][main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-05 09:21:31.617[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 09:21:31.802[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49c83262, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c573229, org.springframework.security.web.header.HeaderWriterFilter@66715ca9, org.springframework.security.web.authentication.logout.LogoutFilter@467af68c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3e28dc96, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@c11332b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@273aaab7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@714f1a44, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23396fc0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77bb916f, org.springframework.security.web.session.SessionManagementFilter@520a95ff, org.springframework.security.web.access.ExceptionTranslationFilter@1209a0f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b126187]
+2020-05-05 09:21:31.836[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-05 09:21:31.845[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-05 09:21:31.871[main][main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-05 09:21:31.955[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 09:21:31.960[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteJobLevelUsingDELETE_1
+2020-05-05 09:21:31.989[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 09:21:31.994[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 09:21:31.999[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deletePositionUsingDELETE_1
+2020-05-05 09:21:32.030[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-05 09:21:32.051[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-05 09:21:32.054[main][main] INFO  com.example.vhr.VhrEndApplication - Started VhrEndApplication in 3.122 seconds (JVM running for 4.131)
+2020-05-05 09:21:41.558[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-05 09:21:41.559[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-05 09:21:41.563[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-05 09:21:41.809[http-nio-8080-exec-1][http-nio-8080-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [213] milliseconds.
+2020-05-05 09:22:01.670[http-nio-8080-exec-5][http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-05 09:22:01.888[http-nio-8080-exec-5][http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-05 09:22:01.893[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 09:22:01.908[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: admin(String)
+2020-05-05 09:22:01.922[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 10:17:32.879[main][main] INFO  com.example.vhr.VhrEndApplication - Starting VhrEndApplication on LAPTOP-K0SG6Q7R with PID 26064 (D:\MySelf\Study\MainMajor\SpringBoot\vhr-end\target\classes started by 18262 in D:\MySelf\Study\MainMajor\SpringBoot\vhr-end)
+2020-05-05 10:17:32.882[main][main] INFO  com.example.vhr.VhrEndApplication - No active profile set, falling back to default profiles: default
+2020-05-05 10:17:34.292[main][main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-05 10:17:34.868[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-05 10:17:34.877[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-05 10:17:34.878[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-05 10:17:34.878[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-05 10:17:34.880[main][main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-05 10:17:34.880[main][main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-05 10:17:34.880[main][main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-05 10:17:34.884[main][main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-05 10:17:34.974[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-05 10:17:34.974[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2031 ms
+2020-05-05 10:17:36.132[main][main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-05 10:17:36.263[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 10:17:36.540[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2020-05-05 10:17:36.541[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/*'], []
+2020-05-05 10:17:36.541[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2020-05-05 10:17:36.541[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars'], []
+2020-05-05 10:17:36.541[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/verifyCode'], []
+2020-05-05 10:17:36.541[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login'], []
+2020-05-05 10:17:36.571[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18989e0, org.springframework.security.web.context.SecurityContextPersistenceFilter@25cde5bb, org.springframework.security.web.header.HeaderWriterFilter@6d001fbe, org.springframework.security.web.authentication.logout.LogoutFilter@218df7d6, com.example.vhr.config.LoginFilter@51ba952e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5df64b2a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2905b568, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a120c88, org.springframework.security.web.session.SessionManagementFilter@5ee77baf, org.springframework.security.web.access.ExceptionTranslationFilter@2d2fc130, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2bfa17b0]
+2020-05-05 10:17:36.614[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-05 10:17:36.624[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-05 10:17:36.653[main][main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-05 10:17:36.772[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 10:17:36.784[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteJobLevelUsingDELETE_1
+2020-05-05 10:17:36.819[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 10:17:36.825[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 10:17:36.831[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deletePositionUsingDELETE_1
+2020-05-05 10:17:36.869[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-05 10:17:36.894[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-05 10:17:36.899[main][main] INFO  com.example.vhr.VhrEndApplication - Started VhrEndApplication in 4.339 seconds (JVM running for 5.358)
+2020-05-05 10:17:42.548[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-05 10:17:42.548[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-05 10:17:42.556[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-05-05 10:17:42.843[http-nio-8080-exec-1][http-nio-8080-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [256] milliseconds.
+2020-05-05 10:20:44.480[http-nio-8080-exec-6][http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-05 10:20:44.713[http-nio-8080-exec-6][http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-05 10:20:44.723[http-nio-8080-exec-6][http-nio-8080-exec-6] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 10:20:44.742[http-nio-8080-exec-6][http-nio-8080-exec-6] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: admin(String)
+2020-05-05 10:20:44.756[http-nio-8080-exec-6][http-nio-8080-exec-6] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 10:20:45.230[http-nio-8080-exec-7][http-nio-8080-exec-7] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==>  Preparing: select distinct m1.*, m2.id as id2, m2.component as component2, m2.enabled as enabled2, m2.iconCls as iconCls2, m2.keepAlive as keepAlive2, m2.name as name2, m2.parentId as parentid2, m2.requireAuth as requireAuth2, m2.path as path2 from menu m1, menu m2, hr_role hrr, menu_role mr where m1.id=m2.parentId and hrr.hrid=? and hrr.rid=mr.rid and mr.mid=m2.id and m2.enabled=true order by m1.id, m2.id 
+2020-05-05 10:20:45.231[http-nio-8080-exec-7][http-nio-8080-exec-7] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==> Parameters: 3(Integer)
+2020-05-05 10:20:45.266[http-nio-8080-exec-7][http-nio-8080-exec-7] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - <==      Total: 21
+2020-05-05 10:22:28.421[main][main] INFO  com.example.vhr.VhrEndApplication - Starting VhrEndApplication on LAPTOP-K0SG6Q7R with PID 31252 (D:\MySelf\Study\MainMajor\SpringBoot\vhr-end\target\classes started by 18262 in D:\MySelf\Study\MainMajor\SpringBoot\vhr-end)
+2020-05-05 10:22:28.423[main][main] INFO  com.example.vhr.VhrEndApplication - No active profile set, falling back to default profiles: default
+2020-05-05 10:22:29.200[main][main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-05 10:22:29.469[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-05 10:22:29.477[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-05 10:22:29.477[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-05 10:22:29.477[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-05 10:22:29.478[main][main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-05 10:22:29.479[main][main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-05 10:22:29.479[main][main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-05 10:22:29.481[main][main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-05 10:22:29.542[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-05 10:22:29.542[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1066 ms
+2020-05-05 10:22:30.237[main][main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-05 10:22:30.304[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 10:22:30.458[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2020-05-05 10:22:30.458[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/*'], []
+2020-05-05 10:22:30.458[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2020-05-05 10:22:30.458[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars'], []
+2020-05-05 10:22:30.458[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/verifyCode'], []
+2020-05-05 10:22:30.458[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login'], []
+2020-05-05 10:22:30.476[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bf3ec4, org.springframework.security.web.context.SecurityContextPersistenceFilter@57bdceaa, org.springframework.security.web.header.HeaderWriterFilter@69ce14e6, org.springframework.security.web.authentication.logout.LogoutFilter@2905b568, com.example.vhr.config.LoginFilter@5b1c32e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36e409e0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5df64b2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b5da0b0, org.springframework.security.web.session.SessionManagementFilter@b5de9ac, org.springframework.security.web.access.ExceptionTranslationFilter@4c65d8e3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7eae55]
+2020-05-05 10:22:30.522[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-05 10:22:30.534[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-05 10:22:30.557[main][main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-05 10:22:30.636[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 10:22:30.641[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteJobLevelUsingDELETE_1
+2020-05-05 10:22:30.666[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 10:22:30.674[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 10:22:30.680[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deletePositionUsingDELETE_1
+2020-05-05 10:22:30.713[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-05 10:22:30.737[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-05 10:22:30.741[main][main] INFO  com.example.vhr.VhrEndApplication - Started VhrEndApplication in 2.623 seconds (JVM running for 3.78)
+2020-05-05 10:22:37.751[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-05 10:22:37.752[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-05 10:22:37.762[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-05-05 10:22:38.082[http-nio-8080-exec-1][http-nio-8080-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [288] milliseconds.
+2020-05-05 10:54:26.176[http-nio-8080-exec-10][http-nio-8080-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-05 10:54:26.412[http-nio-8080-exec-10][http-nio-8080-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-05 10:54:26.420[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 10:54:26.435[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: admin(String)
+2020-05-05 10:54:26.449[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 10:54:26.962[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==>  Preparing: select distinct m1.*, m2.id as id2, m2.component as component2, m2.enabled as enabled2, m2.iconCls as iconCls2, m2.keepAlive as keepAlive2, m2.name as name2, m2.parentId as parentid2, m2.requireAuth as requireAuth2, m2.path as path2 from menu m1, menu m2, hr_role hrr, menu_role mr where m1.id=m2.parentId and hrr.hrid=? and hrr.rid=mr.rid and mr.mid=m2.id and m2.enabled=true order by m1.id, m2.id 
+2020-05-05 10:54:26.963[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==> Parameters: 3(Integer)
+2020-05-05 10:54:26.988[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - <==      Total: 21
+2020-05-05 10:54:29.087[http-nio-8080-exec-2][http-nio-8080-exec-2] DEBUG c.e.v.m.P.selectAllPosition - ==>  Preparing: select * from position 
+2020-05-05 10:54:29.089[http-nio-8080-exec-2][http-nio-8080-exec-2] DEBUG c.e.v.m.P.selectAllPosition - ==> Parameters: 
+2020-05-05 10:54:29.089[http-nio-8080-exec-3][http-nio-8080-exec-3] DEBUG c.e.v.m.J.selectAllJobLevel - ==>  Preparing: select * from joblevel 
+2020-05-05 10:54:29.089[http-nio-8080-exec-3][http-nio-8080-exec-3] DEBUG c.e.v.m.J.selectAllJobLevel - ==> Parameters: 
+2020-05-05 10:54:29.091[http-nio-8080-exec-2][http-nio-8080-exec-2] DEBUG c.e.v.m.P.selectAllPosition - <==      Total: 6
+2020-05-05 10:54:29.092[http-nio-8080-exec-3][http-nio-8080-exec-3] DEBUG c.e.v.m.J.selectAllJobLevel - <==      Total: 10
+2020-05-05 10:54:29.242[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.mapper.RoleMapper.getAllRoles - ==>  Preparing: select * from role 
+2020-05-05 10:54:29.243[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.mapper.RoleMapper.getAllRoles - ==> Parameters: 
+2020-05-05 10:54:29.247[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.mapper.RoleMapper.getAllRoles - <==      Total: 13
+2020-05-05 11:20:07.683[main][main] INFO  com.example.vhr.VhrEndApplication - Starting VhrEndApplication on LAPTOP-K0SG6Q7R with PID 31344 (D:\MySelf\Study\MainMajor\SpringBoot\vhr-end\target\classes started by 18262 in D:\MySelf\Study\MainMajor\SpringBoot\vhr-end)
+2020-05-05 11:20:07.687[main][main] INFO  com.example.vhr.VhrEndApplication - No active profile set, falling back to default profiles: default
+2020-05-05 11:20:09.855[main][main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-05 11:20:10.440[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-05 11:20:10.453[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-05 11:20:10.455[main][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-05 11:20:10.456[main][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-05 11:20:10.461[main][main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-05 11:20:10.461[main][main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-05 11:20:10.461[main][main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-05 11:20:10.467[main][main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-05 11:20:10.614[main][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-05 11:20:10.614[main][main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2783 ms
+2020-05-05 11:20:12.777[main][main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-05 11:20:13.004[main][main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 11:20:13.364[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2020-05-05 11:20:13.364[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/*'], []
+2020-05-05 11:20:13.364[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2020-05-05 11:20:13.364[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars'], []
+2020-05-05 11:20:13.364[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/verifyCode'], []
+2020-05-05 11:20:13.364[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login'], []
+2020-05-05 11:20:13.401[main][main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bfa17b0, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bbdb220, org.springframework.security.web.header.HeaderWriterFilter@52909a97, org.springframework.security.web.authentication.logout.LogoutFilter@165d1d54, com.example.vhr.config.LoginFilter@5c4cc644, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d120d7c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a5e8260, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@625264ed, org.springframework.security.web.session.SessionManagementFilter@145e958f, org.springframework.security.web.access.ExceptionTranslationFilter@4ecd8ab1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2bf3ec4]
+2020-05-05 11:20:13.476[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-05 11:20:13.495[main][main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-05 11:20:13.551[main][main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-05 11:20:13.715[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 11:20:13.737[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deleteJobLevelUsingDELETE_1
+2020-05-05 11:20:13.806[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 11:20:13.827[main][main] WARN  s.d.s.w.r.p.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2020-05-05 11:20:13.834[main][main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: deletePositionUsingDELETE_1
+2020-05-05 11:20:13.925[main][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-05 11:20:13.976[main][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-05 11:20:13.985[main][main] INFO  com.example.vhr.VhrEndApplication - Started VhrEndApplication in 6.911 seconds (JVM running for 8.637)
+2020-05-05 11:20:21.341[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-05 11:20:21.342[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-05 11:20:21.351[http-nio-8080-exec-1][http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-05-05 11:20:21.661[http-nio-8080-exec-1][http-nio-8080-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [274] milliseconds.
+2020-05-05 11:20:30.180[http-nio-8080-exec-3][http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-05-05 11:20:30.413[http-nio-8080-exec-3][http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-05 11:20:30.419[http-nio-8080-exec-3][http-nio-8080-exec-3] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==>  Preparing: select * from hr where username=? 
+2020-05-05 11:20:30.434[http-nio-8080-exec-3][http-nio-8080-exec-3] DEBUG c.e.v.m.HrMapper.loadUserByUsername - ==> Parameters: admin(String)
+2020-05-05 11:20:30.449[http-nio-8080-exec-3][http-nio-8080-exec-3] DEBUG c.e.v.m.HrMapper.loadUserByUsername - <==      Total: 1
+2020-05-05 11:20:30.601[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==>  Preparing: select distinct m1.*, m2.id as id2, m2.component as component2, m2.enabled as enabled2, m2.iconCls as iconCls2, m2.keepAlive as keepAlive2, m2.name as name2, m2.parentId as parentid2, m2.requireAuth as requireAuth2, m2.path as path2 from menu m1, menu m2, hr_role hrr, menu_role mr where m1.id=m2.parentId and hrr.hrid=? and hrr.rid=mr.rid and mr.mid=m2.id and m2.enabled=true order by m1.id, m2.id 
+2020-05-05 11:20:30.602[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - ==> Parameters: 3(Integer)
+2020-05-05 11:20:30.616[http-nio-8080-exec-4][http-nio-8080-exec-4] DEBUG c.e.v.m.MenuMapper.getMenusByHrId - <==      Total: 21
+2020-05-05 11:20:34.675[http-nio-8080-exec-6][http-nio-8080-exec-6] DEBUG c.e.v.m.J.selectAllJobLevel - ==>  Preparing: select * from joblevel 
+2020-05-05 11:20:34.675[http-nio-8080-exec-6][http-nio-8080-exec-6] DEBUG c.e.v.m.J.selectAllJobLevel - ==> Parameters: 
+2020-05-05 11:20:34.679[http-nio-8080-exec-6][http-nio-8080-exec-6] DEBUG c.e.v.m.J.selectAllJobLevel - <==      Total: 10
+2020-05-05 11:20:34.704[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.P.selectAllPosition_COUNT - ==>  Preparing: SELECT count(0) FROM position 
+2020-05-05 11:20:34.705[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.P.selectAllPosition_COUNT - ==> Parameters: 
+2020-05-05 11:20:34.708[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.P.selectAllPosition_COUNT - <==      Total: 1
+2020-05-05 11:20:34.709[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.P.selectAllPosition - ==>  Preparing: select * from position LIMIT ? 
+2020-05-05 11:20:34.709[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.P.selectAllPosition - ==> Parameters: 5(Integer)
+2020-05-05 11:20:34.711[http-nio-8080-exec-5][http-nio-8080-exec-5] DEBUG c.e.v.m.P.selectAllPosition - <==      Total: 5
+2020-05-05 11:20:34.975[http-nio-8080-exec-7][http-nio-8080-exec-7] DEBUG c.e.v.mapper.RoleMapper.getAllRoles - ==>  Preparing: select * from role 
+2020-05-05 11:20:34.975[http-nio-8080-exec-7][http-nio-8080-exec-7] DEBUG c.e.v.mapper.RoleMapper.getAllRoles - ==> Parameters: 
+2020-05-05 11:20:34.977[http-nio-8080-exec-7][http-nio-8080-exec-7] DEBUG c.e.v.mapper.RoleMapper.getAllRoles - <==      Total: 13
+2020-05-05 11:20:38.196[http-nio-8080-exec-8][http-nio-8080-exec-8] DEBUG c.e.v.m.P.selectAllPosition_COUNT - ==>  Preparing: SELECT count(0) FROM position 
+2020-05-05 11:20:38.197[http-nio-8080-exec-8][http-nio-8080-exec-8] DEBUG c.e.v.m.P.selectAllPosition_COUNT - ==> Parameters: 
+2020-05-05 11:20:38.199[http-nio-8080-exec-8][http-nio-8080-exec-8] DEBUG c.e.v.m.P.selectAllPosition_COUNT - <==      Total: 1
+2020-05-05 11:20:38.200[http-nio-8080-exec-8][http-nio-8080-exec-8] DEBUG c.e.v.m.P.selectAllPosition - ==>  Preparing: select * from position LIMIT ?, ? 
+2020-05-05 11:20:38.200[http-nio-8080-exec-8][http-nio-8080-exec-8] DEBUG c.e.v.m.P.selectAllPosition - ==> Parameters: 5(Integer), 5(Integer)
+2020-05-05 11:20:38.203[http-nio-8080-exec-8][http-nio-8080-exec-8] DEBUG c.e.v.m.P.selectAllPosition - <==      Total: 1
+2020-05-05 11:20:39.697[http-nio-8080-exec-9][http-nio-8080-exec-9] DEBUG c.e.v.m.P.selectAllPosition_COUNT - ==>  Preparing: SELECT count(0) FROM position 
+2020-05-05 11:20:39.697[http-nio-8080-exec-9][http-nio-8080-exec-9] DEBUG c.e.v.m.P.selectAllPosition_COUNT - ==> Parameters: 
+2020-05-05 11:20:39.698[http-nio-8080-exec-9][http-nio-8080-exec-9] DEBUG c.e.v.m.P.selectAllPosition_COUNT - <==      Total: 1
+2020-05-05 11:20:39.698[http-nio-8080-exec-9][http-nio-8080-exec-9] DEBUG c.e.v.m.P.selectAllPosition - ==>  Preparing: select * from position LIMIT ? 
+2020-05-05 11:20:39.698[http-nio-8080-exec-9][http-nio-8080-exec-9] DEBUG c.e.v.m.P.selectAllPosition - ==> Parameters: 5(Integer)
+2020-05-05 11:20:39.700[http-nio-8080-exec-9][http-nio-8080-exec-9] DEBUG c.e.v.m.P.selectAllPosition - <==      Total: 5
+2020-05-05 11:20:44.377[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.P.selectAllPosition_COUNT - ==>  Preparing: SELECT count(0) FROM position 
+2020-05-05 11:20:44.378[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.P.selectAllPosition_COUNT - ==> Parameters: 
+2020-05-05 11:20:44.379[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.P.selectAllPosition_COUNT - <==      Total: 1
+2020-05-05 11:20:44.380[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.P.selectAllPosition - ==>  Preparing: select * from position LIMIT ?, ? 
+2020-05-05 11:20:44.381[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.P.selectAllPosition - ==> Parameters: 5(Integer), 5(Integer)
+2020-05-05 11:20:44.383[http-nio-8080-exec-10][http-nio-8080-exec-10] DEBUG c.e.v.m.P.selectAllPosition - <==      Total: 1
+2020-05-05 11:43:05.300[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.P.selectAllPosition_COUNT - ==>  Preparing: SELECT count(0) FROM position 
+2020-05-05 11:43:05.301[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.P.selectAllPosition_COUNT - ==> Parameters: 
+2020-05-05 11:43:05.303[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.P.selectAllPosition_COUNT - <==      Total: 1
+2020-05-05 11:43:05.304[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.P.selectAllPosition - ==>  Preparing: select * from position LIMIT ? 
+2020-05-05 11:43:05.304[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.P.selectAllPosition - ==> Parameters: 5(Integer)
+2020-05-05 11:43:05.308[http-nio-8080-exec-1][http-nio-8080-exec-1] DEBUG c.e.v.m.P.selectAllPosition - <==      Total: 5
