@@ -1,6 +1,9 @@
 package com.example.vhr.mapper;
 
 import com.example.vhr.model.Employeetrain;
+import org.apache.ibatis.annotations.Select;
+
+import java.util.List;
 
 public interface EmployeetrainMapper {
     int deleteByPrimaryKey(Integer id);
@@ -14,4 +17,11 @@ public interface EmployeetrainMapper {
     int updateByPrimaryKeySelective(Employeetrain record);
 
     int updateByPrimaryKey(Employeetrain record);
+
+    @Select("select * from employeetrain")
+    List<Employeetrain> selectAllEmployeetrains();
+
+    Integer deleteByIds(Integer[] ids);
+
+    Integer batchInsert(List<Employeetrain> employeetrains);
 }
